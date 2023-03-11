@@ -7,6 +7,9 @@ self.addEventListener('install', event => {
     cache.addAll([
       '/',
       '/converter.js',
+      '/app.webmanifest',
+      '/index.html',
+      '/smart.jpg',
       
     ]);
   })());
